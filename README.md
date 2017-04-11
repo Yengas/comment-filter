@@ -6,13 +6,14 @@ You can run this script using `node index.js`. However you need to set some comm
 ### Arguments
 - **in** the input file to process line by line.
 - **out** the output file to put the output to.
+- **filtered** optional file to put the filetered comments out to.
 - **key** the word to search for in the file.
 - **override** if it this option is given, the output file will be overriden.
 
 ## Example
 - Input File
 ```
-Orange tree. Cherry. Orange.
+orange tree. cherry. orange.
 Antalya.
 That is a place where orange grows
 ```

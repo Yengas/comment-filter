@@ -1,0 +1,33 @@
+{
+  "name": "comment-filter",
+  "version": "1.0.0",
+  "description": "Filters out given comments in a file to find phrases which include a specific word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yengas/comment-filter.git"
+  },
+  "keywords": [
+    "filter",
+    "big",
+    "file",
+    "comment",
+    "phrase"
+  ],
+  "author": "Yengas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yengas/comment-filter/issues"
+  },
+  "homepage": "https://github.com/Yengas/comment-filter#readme",
+  "dependencies": {
+    "byline": "^5.0.0",
+    "sentence-tokenizer": "0.0.7",
+    "stream-filter": "^2.1.0",
+    "through2": "^2.0.3",
+    "yargs": "^7.0.2"
+  }
+}

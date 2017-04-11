@@ -11,16 +11,22 @@ You can run this script using `node index.js`. However you need to set some comm
 - **override** if it this option is given, the output file will be overriden.
 
 ## Example
-- Input File
+- Input file
 ```
 orange tree. cherry. orange.
 Antalya.
 That is a place where orange grows
 ```
-- Command: `node index.js --in input.txt --out output.txt --override --key orange`
+- Command: `node index.js --in input.txt --out output.txt --filtered filtered.txt --override --key orange`
 - Output file
 ```
 Orange tree.
 Orange.
 That is a place where orange grows
+```
+- Filtered file
+```
+cherry.
+Antalya.
+
 ```
